@@ -1,0 +1,35 @@
+.box-card
+{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.box-card img{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 576px) { 
+.box-card
+{
+   height: auto;
+}
+}
+@media (min-width: 576px) { 
+    .box-card
+    {
+       height: auto;
+    }
+}
+@media (min-width: 992px) { 
+    .box-card
+    {
+       height: 300px;
+    }
+    
+ }
+@media (min-width: 1200px) { 
+    .box-card
+    {
+       height: 300px;
+    }
+}
